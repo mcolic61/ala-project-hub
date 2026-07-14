@@ -1,4 +1,4 @@
-// ALA Project Hub service worker — guarantees an always-fresh page.
+// ALA OS service worker — guarantees an always-fresh page.
 // Page navigations are fetched network-first with cache:no-store, so the browser can
 // never serve a stale cached copy of the hub. Cache is used only as an offline fallback.
 self.addEventListener('install', function(e){ self.skipWaiting(); });
